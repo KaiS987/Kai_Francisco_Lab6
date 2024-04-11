@@ -6,6 +6,13 @@ def encode(password):
         new_pass += each_num[-1]
     return int(new_pass)
 
+def decode(password):
+    pass_list = list(str(password))
+    new_pass = " "
+    for char in pass_list:
+        char = str(int("1" + char) - 3)
+        new_pass += char[-1]
+    return new_pass
 
 if __name__ == '__main__':
   while True:
