@@ -19,3 +19,4 @@ if __name__ == '__main__':
       print(f"The encoded password is {encoded_pass}, and the original password is {password}.")
     elif choice == 3:
       quit()
+
